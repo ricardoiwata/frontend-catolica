@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Castoro Titling', cursive;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Castoro Titling', cursive;
+}
+
+/* MENU */
+
+
+
+.content {
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #02194b;
+    position: fixed;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo h3 {
+    color: white;
+    font-size: 1.6rem;
+
+}
+
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .list-menu {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.content .list-menu li a {
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
+    align-items: center;
+    align-self: center;
+}
+
+.content .list-menu li a:hover {
+    border-bottom: 4px solid #cec35e;
+    color: #cec35e;
+}
+
+.sobre-o-imovel {
+    width: 100%;
+    padding-bottom: 5rem;
+    color: #cec35e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.main {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre-o-imovel img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid #02194b;
+}
+
+.contentsobre h2 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.contentsobre p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
+}
+
+.normas {
+    width: 100%;
+    background-color: #02194b;
+    display: flex;
+    flex-direction: column;
+    justify-content: Center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #cec35e;
+    padding-bottom: 4rem;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.normas h3 {
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.normas-secao {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.normas-secao i {
+    margin-right: 1rem;
+
+}
+
+.normas-secao div {
+    cursor: pointer;
+}
+
+.normas-secao div:hover {
+    color: #ffc506;
+}
+
+footer {
+    height: 25px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
