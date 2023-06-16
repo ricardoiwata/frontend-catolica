@@ -152,53 +152,11 @@ html {
     color: #ffc506;
 }
 
-.contatos {
-    width: 100%;
-    background-color: #1f1e1f;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.8rem;
-    color: white;
-    padding-bottom: 4rem;
-}
-
 .zap {
     position: fixed;
     bottom: 10px;
     right: 20px;
     z-index: 9999;
-}
-
-.contatos-secao {
-    width: 650px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 2rem;
-}
-
-.contatos-secao i {
-    margin-right: 1rem;
-}
-
-.contatos-secao div {
-    cursor: pointer;
-}
-
-.contatos-secao div:hover {
-    color: #ffc506;
-}
-
-.articles {
-    padding: 2rem 0;
-}
-
-.posts_titulo {
-    font-size: 2.5rem;
-    color: var(--branco);
-    text-align: center;
-    margin-bottom: 3rem;
 }
 
 .container {
@@ -318,24 +276,7 @@ footer {
     .content .list-menu li a {
         font-size: 1.6rem;
     }
-
-    .normas h3 {
-        font-size: 4rem;
-        margin-bottom: 2rem;
-    }
-
-    .normas-secao,
-    .contatos-secao {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .normas-secao i,
-    .contatos-secao i {
-        margin-right: 0;
-        margin-bottom: 0.5rem;
-    }
-
+    
     .container {
         padding: 0 2%;
     }
